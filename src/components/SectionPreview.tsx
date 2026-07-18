@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import button from "./ui/button";
+import Button from "./ui/Button";
 import { Building2 } from 'lucide-react';
 
 const sectionFeatures= [{
@@ -51,7 +51,7 @@ const SectionPreview =()=>{
                         
                            <div className="items-center py-8">
                              <Link to="/Services">
-                            <button className="px-16 bg-white">EXPLORE MORE</button>
+                            <Button text="Explore more services"/>
                             </Link>
                            </div>
 

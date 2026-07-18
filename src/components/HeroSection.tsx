@@ -1,7 +1,7 @@
 import Hero from "@/assets/Hero.png";
 import { LaptopMinimal } from 'lucide-react';
 import {Link} from "react-router-dom";
-import button from "./ui/button";
+import button from "./ui/Button";
 
 const HeroSection=()=>{
     return(

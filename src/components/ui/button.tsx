@@ -1,11 +1,11 @@
 import React from "react";
 
-interface buttonprops{
+interface Buttonprops{
   text: string;
 }
-const button: React.FC<buttonprops>=(props)=>{
+const Button: React.FC<Buttonprops>=(props)=>{
     return(
   <button>{props.text}</button>
     );
 };
-export default button;
+export default Button;

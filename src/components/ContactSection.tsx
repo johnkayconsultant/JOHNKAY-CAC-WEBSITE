@@ -1,4 +1,4 @@
-import button from "./ui/button";
+import button from "./ui/Button";
 import { Phone, Mail, MapPin, ArrowRight } from "lucide-react";
 const ContactSection=()=>{
         return(
