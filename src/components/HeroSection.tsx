@@ -26,11 +26,11 @@ const HeroSection=()=>{
                                  <span className="text-shadow-mauve-700  font-bold text-amber-300 ">Your trusted Consult
                                 </span>
                                 </div>
-                                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-yellow-500 animate-fade-in px-7 "
+                                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-yellow-500 animate-fade-in "
                                 style={{animationDelay: "0.1"}}>WELCOME TO 
                                 <span> JOHNKAY CONSULTANT</span>
                                 </h1>
-                                <p className="text-lg max-w-xl text-cream/70 px-7 text-gray-100 font-extrabold">
+                                <p className="text-lg max-w-xl text-cream/70 text-gray-100 font-extrabold">
                                     At Johnkay Consultant, we are committed to making business registration and compliance simple, fast, and stress-free. With expertise in CAC services, tax registration, trademark registration, and digital profiling, we provide professional solutions that empower businesses to succeed.
                                 </p>
                                 <Link to="/Services">
