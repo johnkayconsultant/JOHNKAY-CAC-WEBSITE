@@ -2,9 +2,9 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import Footer from "@/components/Footer";
 // import Contact from "./Contact";
-import ContactSection from "@/components/ContactSection";
+// import ContactSection from "@/components/ContactSection";
 import SectionPreview from "@/components/SectionPreview";
-
+import CTASection from "@/components/CTASection";
 const Home=()=> {
   
     return (
@@ -12,7 +12,8 @@ const Home=()=> {
     <Header/>
     <HeroSection/>
     <SectionPreview/>
-    <ContactSection/>
+    <CTASection/>
+    {/* <ContactSection/> */}
     <Footer/>
     
     {/* <Contact/> */}
