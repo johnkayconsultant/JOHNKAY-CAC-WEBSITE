@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import Footer from "@/components/Footer";
 // import Contact from "./Contact";
 import ContactSection from "@/components/ContactSection";
+import SectionPreview from "@/components/SectionPreview";
 
 const Home=()=> {
   
@@ -10,8 +11,10 @@ const Home=()=> {
         <div className="bg-background min-h-screen">
     <Header/>
     <HeroSection/>
+    <SectionPreview/>
     <ContactSection/>
     <Footer/>
+    
     {/* <Contact/> */}
    
     
