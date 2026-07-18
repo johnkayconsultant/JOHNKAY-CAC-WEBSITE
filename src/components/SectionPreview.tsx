@@ -37,10 +37,10 @@ const SectionPreview =()=>{
                         {sectionFeatures.map((Features)=>(
                             <div
                             key= {Features.title}
-                            className="items-center"
+                            className=" group items-center"
                             >
-                            <div>
-                            <Features.icon className="w-9 h-9 text-accent-foreground"/>
+                            <div className="w-16 h-16 rounded-xl gradient-accent flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
+                            <Features.icon className="w-6 h-6 text-accent-foreground"/>
                             </div>
                             <h3 className="text-3xl font bold">{Features.title}</h3>
                             <p className='text-amber-50'>{Features.description}</p>
@@ -48,13 +48,14 @@ const SectionPreview =()=>{
                         ))}
 
                         {/* CTA button */}
-                        <section className="text-center py-3">
-                            <Link to="/Services">
-                            <button className="px-16">EXPLORE MORE</button>
+                        
+                           <div className="items-center py-8">
+                             <Link to="/Services">
+                            <button className="px-16 bg-white">EXPLORE MORE</button>
                             </Link>
+                           </div>
 
 
-                        </section>
 
                     </div>
 
