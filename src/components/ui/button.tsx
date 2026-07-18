@@ -1,6 +1,11 @@
-const button =()=>{
+import React from "react";
+
+interface buttonprops{
+  text: string;
+}
+const button: React.FC<buttonprops>=(props)=>{
     return(
-  <button>CONTACT US</button>
+  <button>{props.text}</button>
     );
 };
 export default button;
