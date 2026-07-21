@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 // import ContactSection from "@/components/ContactSection";
 import SectionPreview from "@/components/SectionPreview";
 import CTASection from "@/components/CTASection";
+import AboutSection from "@/components/AboutSection";
 const Home=()=> {
   
     return (
@@ -14,6 +15,7 @@ const Home=()=> {
     <SectionPreview/>
     <CTASection/>
     {/* <ContactSection/> */}
+    <AboutSection/>
     <Footer/>
     
     {/* <Contact/> */}
