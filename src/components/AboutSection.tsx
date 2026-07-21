@@ -13,7 +13,7 @@ const highlight=[
 
 const AboutSection=()=>{
     return(
-            <section className="py-16 bg-amber-300">
+            <section className="py-16 bg-amber-300 ">
                 <div className="grid grid-cols-2 gap-16 items-center">
                     <div className="space-y-6">
                     <span className="inline-block text-amber font-semibold text-sm uppercase tracking-wider mb-4 text-center">About Us</span>
