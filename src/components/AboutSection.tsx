@@ -35,11 +35,37 @@ const AboutSection=()=>{
                     ))}
                     </div>
 
-                    <div className="text-center space-y-2 py-3">
+                    <div className="text-center space-y-2 py-7">
                         <Link to ="/About">
                     <Button text="Learn More About Us"/>
                     </Link>
                     </div>
+
+                    {/* <div className="relative"> */}
+            <div className="grid grid-cols-2 gap-4">
+              {/* Stats Cards */}
+              <div className="space-y-4">
+                <div className="bg-card rounded-xl p-6 shadow-lg">
+                  <div className="text-4xl font-bold text-amber mb-2">98%</div>
+                  <div className="text-muted-foreground text-sm">Client Satisfaction Rate</div>
+                </div>
+                <div className="bg-primary rounded-xl p-6 shadow-lg">
+                  <div className="text-4xl font-bold text-cream mb-2">500+</div>
+                  <div className="text-cream/70 text-sm">Projects Completed</div>
+                </div>
+              </div>
+              <div className="space-y-4 pt-8">
+                <div className="bg-primary rounded-xl p-6 shadow-lg">
+                  <div className="text-4xl font-bold text-amber mb-2">200+</div>
+                  <div className="text-cream/70 text-sm">Expert Team Members</div>
+                </div>
+                <div className="bg-card rounded-xl p-6 shadow-lg">
+                  <div className="text-4xl font-bold text-primary mb-2">30+</div>
+                  <div className="text-muted-foreground text-sm">Countries Served</div>
+                </div>
+              </div>
+            </div>
+            {/* </div> */}
 
             </section>
     )
