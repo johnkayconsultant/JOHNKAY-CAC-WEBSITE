@@ -48,13 +48,14 @@ const Contact=()=>{
       })};
 
       return(
-          <div className="min-h-screen bg-white">
-            <Header/>
-           
+          
+          <div className="min-h-screen bg-secondary">
+           <Header/>  
+          
             // hero section
                 <section className="pt-32 pb-16 bg-blue-600">
                     <div className="section-container">
-                        <div className="text-3xl text-center">
+                        <div className="mx-auto text-center max-w-3xl ">
                             <span>Contact Us</span>
                         <h1 className="text-4xl md:text-5xl mb-3 font-bold ">Get In Touch</h1>
                         <p className="text-lg text-blue-500">Ready to start your next project? Reach out to us and let's discuss 
