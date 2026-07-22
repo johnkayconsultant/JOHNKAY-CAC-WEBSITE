@@ -48,7 +48,7 @@ const Contact=()=>{
       })};
 
       return(
-          <div className="min-h-screen bg-blue-900">
+          <div className="min-h-screen bg-white">
             <Header/>
            
             // hero section
@@ -56,11 +56,12 @@ const Contact=()=>{
                     <div className="section-container">
                         <div className="text-3xl text-center">
                             <span>Contact Us</span>
+                        <h1 className="text-4xl md:text-5xl mb-3 font-bold ">Get In Touch</h1>
+                        <p className="text-lg text-blue-500">Ready to start your next project? Reach out to us and let's discuss 
+              how we can help your business succeed.</p>
                         </div>
                     </div>
-
-
-                </section>
+            </section>
                 
          </div> 
          

@@ -6,6 +6,7 @@ import { University } from 'lucide-react';
 import { Earth } from 'lucide-react';
 import Header from "@/components/Header";
 import { CircleCheckBig } from 'lucide-react';
+import Footer from '@/components/Footer';
 
 
 const services =[
@@ -129,7 +130,9 @@ const Services = () => {
 
 
                 </section>
+                <Footer/>
                 </div>
+                 
             );
 };
 export default Services;

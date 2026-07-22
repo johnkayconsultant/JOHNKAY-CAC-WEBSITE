@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 // import button from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Users,Shield, TrendingUp, Target } from 'lucide-react';
@@ -134,7 +134,7 @@ Driven by integrity, professionalism, and customer satisfaction, Johnkay Consult
                 </div>
 
               </section>
-              {/* <Footer/> */}
+              <Footer/>
         </div>
 
       
